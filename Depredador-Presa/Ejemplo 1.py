@@ -4,7 +4,7 @@ import matplotlib.cm as cm
 from DepredadorPresa import simulacion
 
 # Caso con 500 liebres y 10 zorros
-liebres = 50
+liebres = 500
 zorros = 10
 semanas = 600
 tiempo_inicial = 1

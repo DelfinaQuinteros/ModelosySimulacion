@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from DepredadorPresa import simulacion
 
-# Caso con 1200 liebres y 3 zorros
+# Caso con 1200 liebres y 500 zorros
 liebres = 1200
-zorros = 3
+zorros = 500
 semanas = 600
 tiempo_inicial = 1
 variacion_tiempo = 1

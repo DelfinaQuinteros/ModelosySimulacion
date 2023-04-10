@@ -3,16 +3,16 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from DepredadorPresa import simulacion
 
-# Caso con 700 liebres y 35 zorros
-liebres = 700
-zorros = 35
+# Caso con 7 liebres y 48 zorros
+liebres = 7
+zorros = 48
 semanas = 600
 tiempo_inicial = 1
 variacion_tiempo = 1
 
 tasa_natalidad_lieb = 0.06
 tasa_mortandad_lieb = 0.002
-tasa_mortandad_zorr = 0.10
+tasa_mortandad_zorr = 0.010
 tasa_natalidad_zorr = 0.0003
 
 liebres_arr, zorros_arr, tiempo_arr = simulacion(variacion_tiempo,
